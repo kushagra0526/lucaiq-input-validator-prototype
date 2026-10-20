@@ -1,0 +1,5 @@
+{
+  "note": "Frozen before the first held-out run. Dev used extract.make(1, 1500) with the 8 dev error kinds. Held-out: new households (seed never run) and a ninth error kind never planted during development: a second W-2 from the same employer name with a different EIN (an extraction or upload mix-up that double counts wages).",
+  "seed": 9090, "n": 1500, "rate": 0.5,
+  "kinds": ["digit_swap", "box_shift", "decimal", "wrong_recipient", "duplicate", "corrected_both", "missing", "qualified_gt", "ein_swap"]
+}
