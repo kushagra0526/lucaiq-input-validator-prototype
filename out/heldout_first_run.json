@@ -1,0 +1,56 @@
+{
+ "set": "heldout",
+ "returns": 1500,
+ "with_error": 749,
+ "clean": 751,
+ "kinds": {
+  "clean": 751,
+  "box_shift": 91,
+  "qualified_gt": 42,
+  "wrong_recipient": 70,
+  "ein_swap": 106,
+  "decimal": 98,
+  "corrected_both": 92,
+  "digit_swap": 77,
+  "duplicate": 81,
+  "missing": 92
+ },
+ "results": {
+  "schema": {
+   "clean_flagged": 0,
+   "missed": 749
+  },
+  "rules": {
+   "clean_flagged": 0,
+   "missed": 35
+  }
+ },
+ "caught": {
+  "schema": {
+   "box_shift": 0,
+   "qualified_gt": 0,
+   "wrong_recipient": 0,
+   "ein_swap": 0,
+   "decimal": 0,
+   "corrected_both": 0,
+   "digit_swap": 0,
+   "duplicate": 0,
+   "missing": 0
+  },
+  "rules": {
+   "box_shift": 91,
+   "qualified_gt": 42,
+   "wrong_recipient": 65,
+   "ein_swap": 106,
+   "decimal": 98,
+   "corrected_both": 92,
+   "digit_swap": 52,
+   "duplicate": 81,
+   "missing": 87
+  }
+ },
+ "excess_ss": {
+  "returns": 370,
+  "computed_right": 370
+ }
+}
